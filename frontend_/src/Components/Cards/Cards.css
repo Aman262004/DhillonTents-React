@@ -1,0 +1,49 @@
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f0f0f0; /* Grey background color */
+  }
+  
+  .card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card h3 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333; /* Match this color with the text color of your OurServices section */
+  }
+  
+  .card p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .card-link {
+    display: inline-block;
+    margin-top: auto; /* Pushes the link to the bottom of the card */
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .card-link:hover {
+    text-decoration: underline;
+  }
