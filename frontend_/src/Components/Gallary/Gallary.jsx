@@ -4,7 +4,7 @@ import './Gallary.css';
 const Gallary = () => {
   return (
     <div className="gallary">
-      <h2>Gallary</h2>
+      <h2>Gallery</h2>
     </div>
   );
 };
